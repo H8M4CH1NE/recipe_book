@@ -95,6 +95,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const Text("- Hello there"),
+            const Text("- General Kenobi!"),
+            const SizedBox(height: 100),
             const Text(
               'You have pushed the button this many times:',
             ),
